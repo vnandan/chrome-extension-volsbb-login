@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "VIT VOLSBB Pronto Login",
+  "description": "This extention is for Pronto Login service with one click in VIT University",
+  "version": "2.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title" : "Click to login"
+  },
+
+  "options_page": "options.html",
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "http://*/*",
+    "storage"
+  ]
+}
